@@ -1,0 +1,13 @@
+body {
+    background-image: url("lionello.jpg");
+    background-size: cover;
+}
+
+.Name {
+    margin-left: 70%;
+    font-size: 30px;
+}
+
+img {
+    height: 300px;
+}
