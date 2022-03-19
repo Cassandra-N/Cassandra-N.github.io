@@ -7,8 +7,13 @@ body {
 }
 
 .Navigation {
+<<<<<<< HEAD
     padding-left: 31%;
     padding-top: 3%;
+=======
+    padding-left: 35%;
+    padding-top: 5%;
+>>>>>>> 3d47e9cca592b09084cbe81ef1c9d646ff569fb5
 }
 
 .about {
@@ -25,14 +30,22 @@ li, a {
     list-style-type: none;
     text-decoration: none;
     float: left; 
+<<<<<<< HEAD
     padding-left: 3%;
     font-family: 'Red Hat Text', sans-serif;
     color: rgb(48, 214, 159);
     font-size: 35px;
+=======
+    padding-left: 4%;
+    font-family: 'Red Hat Text', sans-serif;
+    color: rgb(48, 214, 159);
+    font-size: 25px;
+>>>>>>> 3d47e9cca592b09084cbe81ef1c9d646ff569fb5
 }
 
 .me {
     text-align: center;
+<<<<<<< HEAD
     margin-top: 7%;
     font-size: x-large;
 }
@@ -43,4 +56,8 @@ li, a {
 
 p {
     font-size: xx-large;
+=======
+    margin-top: 5%;
+    font-size: x-large;
+>>>>>>> 3d47e9cca592b09084cbe81ef1c9d646ff569fb5
 }

@@ -14,8 +14,13 @@ body {
 }
 
 img {
+<<<<<<< HEAD
     height: 500px;
     width: 500px;
+=======
+    height: 400px;
+    width: 400px;
+>>>>>>> 3d47e9cca592b09084cbe81ef1c9d646ff569fb5
     border-radius: 50%;
     border-style:ridge;
 }
@@ -32,6 +37,7 @@ li, a {
 }
 
 .Navigation {
+<<<<<<< HEAD
     padding-left: 31%;
     margin-top: 5%;
 }
@@ -75,6 +81,12 @@ li, a {
     }
 }
 
+=======
+    padding-left: 35%;
+    margin-top: 5%;
+}
+
+>>>>>>> 3d47e9cca592b09084cbe81ef1c9d646ff569fb5
 
 
 
