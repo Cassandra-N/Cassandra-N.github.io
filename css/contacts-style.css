@@ -42,3 +42,41 @@ p {
     padding-left: 40%;
     font-size: x-large;
 }
+
+@media screen and (max-width: 650px) {
+
+    img {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border-style:ridge;
+    }
+
+    .Navigation {
+        padding-left: 20%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;  
+    }
+}
+
+@media screen and (min-width: 750px ){
+    .Navigation {
+        padding-left: 10%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 1080px ){
+    .Navigation {
+        padding-left: 25%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 1440px ){
+    .Navigation {
+        padding-left: 31%;
+        margin-top: 5%;
+    }
+}
