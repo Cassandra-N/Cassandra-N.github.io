@@ -8,11 +8,7 @@ body {
 
 
 .Navigation {
-<<<<<<< HEAD
     padding-left: 31%;
-=======
-    padding-left: 35%;
->>>>>>> 3d47e9cca592b09084cbe81ef1c9d646ff569fb5
     padding-top: 5%;
 }
 
@@ -33,11 +29,7 @@ li, a {
     padding-left: 4%;
     font-family: 'Red Hat Text', sans-serif;
     color: rgb(48, 214, 159);
-<<<<<<< HEAD
     font-size: 35px;
-=======
-    font-size: 25px;
->>>>>>> 3d47e9cca592b09084cbe81ef1c9d646ff569fb5
 }
 
 .js, .html, .css, .jasmine {

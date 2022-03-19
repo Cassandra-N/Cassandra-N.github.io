@@ -7,22 +7,14 @@ body {
 }
 
 .Navigation {
-<<<<<<< HEAD
     padding-left: 30%;
-=======
-    padding-left: 35%;
->>>>>>> 3d47e9cca592b09084cbe81ef1c9d646ff569fb5
     padding-top: 5%;
 }
 
 .projects {
     font-size: 40px;
     text-align: center;
-<<<<<<< HEAD
     margin-top: 9%;
-=======
-    margin-top: 5%;
->>>>>>> 3d47e9cca592b09084cbe81ef1c9d646ff569fb5
     border-style:solid;
     border-color: cornsilk;
     margin-left: 10%;
@@ -36,9 +28,5 @@ li, a {
     padding-left: 4%;
     font-family: 'Red Hat Text', sans-serif;
     color: rgb(48, 214, 159);
-<<<<<<< HEAD
     font-size: 35px;
-=======
-    font-size: 25px;
->>>>>>> 3d47e9cca592b09084cbe81ef1c9d646ff569fb5
 }
