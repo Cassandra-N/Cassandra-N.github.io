@@ -1,0 +1,137 @@
+body {
+    background-color: wheat;
+}
+
+.naviagtion {
+    background-color: #333;
+    overflow: hidden;
+    margin-top: 2%;
+  }
+  
+  .naviagtion a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .naviagtion a:hover {
+    background-color: #ddd;
+    color: rgb(24, 12, 12);
+  }
+  
+  .naviagtion a.active {
+    background-color: #4982e6;
+    color: white;
+  }
+  
+.Name {
+    margin-top: 5%;
+    font-size: 45px;
+    text-align: center;
+    color:rgb(48, 28, 28);
+    text-shadow: 2px 2px #ecdfdf;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.home_content {
+	text-align: center;
+	height: 400px;
+    margin-top: 30px;
+    margin-left: 10%;
+	margin-right: 10%;	
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+	border-radius: 5px;
+	position: relative;
+	z-index: 1;
+	background: inherit;
+	overflow: hidden;
+}
+
+.home_content:before {
+	content: "";
+	position: absolute;
+    background-color: #ede4ee;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+}
+
+.content {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 25px;
+    color:rgb(48, 28, 28);
+}
+
+/* Skills styling */
+
+.skills, .projects, .contacts{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 30px;
+    border-style:ridge;
+    border-color: rgb(7, 45, 88);
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.js, .html, .css {
+    text-align: center;
+	height: 100px;
+    margin-top: 10%;
+    margin-left: 13%;	
+}
+
+.jasmine {
+    text-align: center;
+	height: 70px;
+    margin-top: 10%;
+    margin-left: 11%;	
+}
+
+/* Projects styling */
+
+#coming-projects{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+/* Contacts styling */
+
+.cell, .email, .whatsapp {
+    text-align: center;
+	height: 100px;
+    margin-top: 3%;
+    margin-left: 20%;	
+    float: left;
+}
+
+.contacts-table {
+    margin-top: 5%;
+}
+
+th, td {
+    padding-left: 240px;
+    text-align: center;
+}
+
+.number {
+    text-align: center;
+}
+
+#footer{
+    background-color: #333;
+    padding-bottom: 40px;
+    color: wheat;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+}
