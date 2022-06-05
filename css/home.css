@@ -1,12 +1,18 @@
 body {
     background-color: wheat;
     text-align: center;
-}
-
-.naviagtion {
+    position: relative;
+  }
+  
+  .naviagtion {
     background-color: #333;
     overflow: hidden;
     margin-top: 2%;
+    position: fixed;
+    top: -40px;
+    width: 100%;
+    left: 0px;
+    z-index: 2;
   }
   
   .naviagtion a {
@@ -28,169 +34,179 @@ body {
     color: white;
   }
   
-.Name {
+  .Name {
     margin-top: 5%;
     font-size: 45px;
     text-align: center;
-    color:rgb(48, 28, 28);
+    color: rgb(48, 28, 28);
     text-shadow: 2px 2px #ecdfdf;
-}
-
-.home_content {
-	text-align: center;
-	height: 400px;
-    margin: 30px auto;
-    width:80%;
-	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-	border-radius: 5px;
-	position: relative;
-	z-index: 1;
-	background: inherit;
-	overflow: hidden;
-}
-
-.home_content:before {
-	content: "";
-	position: absolute;
+  }
+  
+  .home_content {
+    text-align: center;
+    height: 400px;
+    margin: 80px auto;
+    width: 80%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+  }
+  
+  .home_content:before {
+    content: "";
+    position: absolute;
     background-color: #ede4ee;
-	z-index: -1;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	box-shadow: inset 0 0 2000px rgba(255,
-255, 255, .5);
-}
-
-.content {
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+  }
+  
+  .content {
     text-align: center;
     margin-top: 5%;
     font-size: 25px;
-    color:rgb(48, 28, 28);
-}
-
-/* Skills styling */
-
-.skills, .projects{
+    color: rgb(48, 28, 28);
+  }
+  
+  /* Skills styling */
+  
+  .skills,
+  .projects {
     margin-top: 5%;
     text-align: center;
     font-size: 30px;
-    border-style:ridge;
+    border-style: ridge;
     border-color: rgb(7, 45, 88);
     margin-left: 30%;
     margin-right: 30%;
-}
-
-.js, .html, .css {
+  }
+  
+  .js,
+  .html,
+  .css {
     text-align: center;
-	height: 100px;
+    height: 100px;
     margin-top: 10%;
-    margin-left: 13%;	
-}
-
-.jasmine {
+    margin-left: 13%;
+  }
+  
+  .jasmine {
     text-align: center;
-	height: 70px;
+    height: 70px;
     margin-top: 10%;
-    margin-left: 11%;	
-}
-
-/* Projects styling */
-
-#coming-projects{
+    margin-left: 11%;
+  }
+  
+  /* Projects styling */
+  
+  #coming-projects {
     text-align: center;
     font-size: 30px;
     margin-top: 5%;
-}
-
-/* Contacts styling */
-
-.cell, .email, .whatsapp {
+  }
+  
+  /* Contacts styling */
+  
+  .cell,
+  .email,
+  .whatsapp {
     text-align: center;
-	height: 100px;
+    height: 100px;
     float: left;
-}
-
-
-th, td {
+  }
+  
+  th,
+  td {
     padding-left: 240px;
     text-align: center;
-}
-
-.cell {
+  }
+  
+  .cell {
     text-align: center;
-    grid-area:phone;
-}
-
-#footer{
+    grid-area: phone;
+  }
+  
+  #footer {
     background-color: #333;
     padding-bottom: 40px;
     color: wheat;
     text-align: center;
     padding-top: 20px;
     margin-top: 50px;
-}
-.email{
+  }
+  .email {
     grid-area: email;
-}
-.whatsapp{
-    grid-area:whatsapp;
-}
-.contacts{
-    display:grid;
-    grid-template-areas: "h1 h1 h1"
-    "phone email whatsapp";
+  }
+  .whatsapp {
+    grid-area: whatsapp;
+  }
+  .contacts {
+    display: grid;
+    grid-template-areas:
+      "h1 h1 h1"
+      "phone email whatsapp";
     margin-bottom: 200px;
-    font-size:30px;
-}
-.contacts h1{ 
+    font-size: 30px;
+  }
+  .contacts h1 {
     grid-area: h1;
-    border:solid;
-    padding:50px;
-}
-
-@media screen and (min-width: 320px){
+    border: solid;
+    padding: 50px;
+  }
+  
+  @media screen and (min-width: 320px) {
     .naviagtion {
-        text-align: center;
+      text-align: center;
     }
-
+  
     body {
-        text-align: center;
-        margin-left: 5%;
+      text-align: center;
+      margin-left: 5%;
     }
-
+  
     .home_content {
-        margin-left: 10%;
-        text-align: center;
+      margin-left: 10%;
+      text-align: center;
     }
-
+  
     .Name {
-        padding-left: -50px;
-        margin-left: 7%;
-        text-align: center;
+      padding-left: -50px;
+      margin-left: 7%;
+      text-align: center;
     }
-
+  
     #cas {
-        font-size: 50px;
+      font-size: 50px;
     }
-
+  
     #asp {
-        font-size: 40px;
+      font-size: 40px;
     }
-
-    .skills, .projects, .contacts {
-        margin-top: 200px;
-        margin-left: 10%;
-        margin-right: 10%;
+  
+    .skills,
+    .projects,
+    .contacts {
+      margin-top: 200px;
+      margin-left: 10%;
+      margin-right: 10%;
     }
-
+  
     .contacts-table {
-        margin-left: -10%;
-        margin-right: -10%;
+      margin-left: -10%;
+      margin-right: -10%;
     }
-
-    .cell, .email, .whatsapp {
-        height: 50px;
+  
+    .cell,
+    .email,
+    .whatsapp {
+      height: 50px;
     }
+  }
 
-}  
+    
