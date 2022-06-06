@@ -7,11 +7,13 @@ body {
   .naviagtion {
     background-color: #333;
     overflow: hidden;
-    margin-top: 2%;
     position: fixed;
-    top: -40px;
+    top: 0;
     width: 100%;
     left: 0px;
+    display: flex;
+    justify-content :space-around;
+    align-items: center;
     z-index: 2;
   }
   
@@ -93,14 +95,14 @@ body {
     text-align: center;
     height: 100px;
     margin-top: 10%;
-    margin-left: 13%;
+  
   }
   
   .jasmine {
     text-align: center;
     height: 70px;
     margin-top: 10%;
-    margin-left: 11%;
+    
   }
   
   /* Projects styling */
@@ -167,9 +169,14 @@ body {
   
     body {
       text-align: center;
-      margin-left: 5%;
+      
+      
     }
-  
+  .logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
     .home_content {
       margin-left: 10%;
       text-align: center;
