@@ -148,18 +148,26 @@ body {
   .whatsapp {
     grid-area: whatsapp;
   }
-  .contacts {
-    display: grid;
-    grid-template-areas:
-      "h1 h1 h1"
-      "phone email whatsapp";
-    margin-bottom: 200px;
-    font-size: 30px;
-  }
+ 
+.contacts {
+  display: grid;
+  grid-template-areas:
+    "h1 h1 h1 h1 h1"
+    "phone email whatsapp github linkedin";
+  margin-bottom: 200px;
+  font-size: 30px;
+}
+
   .contacts h1 {
     grid-area: h1;
     border: solid;
     padding: 50px;
+  }
+  .linkedin {
+    grid-area: linkedin;
+  }
+  .github {
+    grid-area: github;
   }
   
   @media screen and (min-width: 320px) {
